@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(1, 19, 24);
+    background-image: url("./student.webp");
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1,p{
+    color:white;
+    text-align:center;
+    margin-bottom:10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}  
+p{
+    font-style:italic;
+}
+form{
+    
+    background-color:rgb(210, 247, 247);
+    margin:auto;
+    padding:40px;
+    border-radius:0.25rem;
+    width:45%;
+    opacity:0.89;
+}
+  
+.box{
+    display:inline;
+    height: 15px;
+    width:15px;
+    
+    margin-bottom: 0px;
+    margin-top: 8px;          
+}
+        
+label{
+    color: hsl(0, 0%, 0%);
+    font-family: monospace;
+    font-size: 15px; 
+    display:block;
+}    
+.rad{
+    display:inline;
+    height: 15px;
+    width:20px;
+    margin-bottom: 7px;
+    
+}          
+input{
+              
+    width:100%;
+    display: block;
+    border-width: 0ch; 
+    height:35px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-radius:2px;
+    padding-left:5px;
+   
+}     
+#blood,select{
+    display:block;
+    padding-bottom:5px;
+    border:none;
+    width:100%;
+    
+}
+select{
+    margin-bottom:20px;
+    height:35px;
+     border-radius:2px;
+    
+    
+}
+#blood{
+    margin-top:20px;
+}  
+.additional{
+    margin-top:20px;
+    margin-bottom:10px;
+    color:rgb(0, 0, 0);
+}  
+#submit{
+    margin-top:20px;
+    display:block;
+    width:100%;
+    border:none;
+    height:40px;
+    background-color:rgb(21, 161, 204); 
+    border-radius:4px;
+    font-size:16px;
+    color:white;       
+}  
+
+#additional{
+    width:100%;
+    height:50px;
+}
+#submit:hover{
+    background-color:white;
+    color:rgb(21, 161, 204);
+    cursor:pointer; 
+}
+.check{
+    margin-top:17px;
+}          
+          

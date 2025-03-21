@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Survey_Form.css">
+    <meta charset="utf-8>"
+    
+  </head>
+  <body><h1 id="title">Student Registration Form</h1> 
+<p id="description">Thank you for your registration</p>
+<form id="survey-form">
+ <label id="name-label" for="name">Name<input type="text" id="name" placeholder="Enter your full name" required></label>
+ <label id="father_name" for="father">Father's Name<input type="text" id="father" placeholder="Enter full name here" required></label>
+ <label id="mother_name" for="mother">Mother's Name<input type="text" id="mother" placeholder="Enter full name here" required></label>
+<label id="phone_number" for="phone">Phone Number<input type="tel" placeholder="eg:902xxxxxxx"></label>
+ <label id="email-label"for="email">Email<input type="email" id="email" placeholder="Enter your  email" required></label>
+ <label id="number-label" for="number">Age<input type="number" min="18" max="100"id="number" placeholder="Enter your age" required></label>
+ 
+  <label id="name2">Date Of Birth<input type="date"></label>
+  <label id="address_name">Address<input type="text"></label>
+  <label class="gender1" for="gender">Gender</label>
+  <label><input class="rad"type="radio" name="gender"value="gender"id="gender" > male</label>
+  <label><input class="rad" value="gender"type="radio" name="gender" id="gender" > Female</label>
+  <label><input class="rad"value="gender"type="radio" id="gender" name="gender" > other</label>
+  <label id="blood" for="blood_group">Blood Group</label>
+  <select id="blood_group">
+   
+   <option>-select-</option>
+   <option>A+</option>
+   <option>A-</option>
+   <option>B+</option>
+   <option>B-</option>
+   <option>AB+</option>
+   <option>AB-</option>
+   <option>O+</option>
+   <option>O-</option>
+   
+</select>
+<label  for="major">Department</label>
+<label><input class="rad"type="radio" name="major"value="major"id="major" > CSE</label>
+<label><input class="rad" value="major"type="radio" name="major" id="major" > ECE</label>
+<label><input class="rad"value="major"type="radio" id="major" name="major" > other</label>
+<div class="check">
+<label class="items" for="box">Select Course</label>
+  <label><input class="box" type="checkbox" value="box"id="box" > Computer Science</label>
+  <label><input class="box" value="box" type="checkbox" id="box" > AI&ML</label>
+  <label><input class="box" value="box"type="checkbox" id="box" > Data Science</label>
+  <label><input class="box" value="box"type="checkbox" id="box" > Data Science</label>
+  <label><input class="box" value="box"type="checkbox" id="box" > Cyber Security</label>
+  <label><input class="box" value="box"type="checkbox" id="box" > Cloud Computing</label>
+  </div>
+  <label class="additional" for="additional">Write your queries</label>
+<textarea id="additional"></textarea>
+<button type="submit" id="submit">submit</button>
+</form></body>
+  </html>
